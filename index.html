@@ -42,14 +42,18 @@
       }
     </style>
   </head>
-  <body class="container mx-auto font-manrope">
-    <header class="px-4 lg:px-0">
+  <body class="font-manrope">
+    <header class="px-4 lg:px-0 container mx-auto ">
       <!-- Navbar -->
       <nav class="my-3">
         <div class="navbar p-0 lg:p-0 bg-base-100 justify-center items-center">
           <div class="navbar-start">
             <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost pl-0 lg:hidden">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost pl-0 lg:hidden"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -93,7 +97,9 @@
             <i
               class="text-xl hidden lg:inline text-[#89898B] mr-6 fa-solid fa-magnifying-glass"
             ></i>
-            <a class="btn bg-button text-lg lg:text-xl text-white font-bold">Get Ticket</a>
+            <a class="btn bg-button text-lg lg:text-xl text-white font-bold"
+              >Get Ticket</a
+            >
           </div>
         </div>
       </nav>
@@ -103,41 +109,133 @@
           <div class="carousel w-full h-[200px] lg:h-[550px]">
             <!-- Slider 1 -->
             <div id="slide1" class="carousel-item relative w-full">
-              <img
-                src="Images/1.png"
-                class="w-full bg-center bg-contain"
-              />
+              <img src="Images/1.png" class="w-full bg-center bg-contain" />
               <div
                 class="absolute flex justify-between transform items-center -translate-y-1/2 left-5 right-5 top-1/2"
               >
-                <a href="#slide2" class="btn min-h-0 h-6 lg:min-h-[48px]  w-6 lg:w-[48px]  btn-circle border-0 text-white bg-black">❮</a>
-                <a href="#slide2" class="btn min-h-0 h-6 lg:min-h-[48px]  w-6 lg:w-[48px]  btn-circle border-0 text-white bg-black">❯</a>
+                <a
+                  href="#slide2"
+                  class="btn min-h-0 h-6 lg:min-h-[48px] w-6 lg:w-[48px] btn-circle border-0 text-white bg-black"
+                  >❮</a
+                >
+                <a
+                  href="#slide2"
+                  class="btn min-h-0 h-6 lg:min-h-[48px] w-6 lg:w-[48px] btn-circle border-0 text-white bg-black"
+                  >❯</a
+                >
               </div>
             </div>
             <!-- Slider 2 -->
             <div id="slide2" class="carousel-item relative w-full">
-              <img
-                src="Images/2.png"
-                class="w-full bg-center bg-contain"
-              />
+              <img src="Images/2.png" class="w-full bg-center bg-contain" />
               <div
                 class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2"
               >
-                <a href="#slide1" class="btn min-h-0 h-6 lg:min-h-[48px]  w-6 lg:w-[48px]  btn-circle border-0 text-white bg-black">❮</a>
-                <a href="#slide1" class="btn min-h-0 h-6 lg:min-h-[48px]  w-6 lg:w-[48px]  btn-circle border-0 text-white bg-black">❯</a>
+                <a
+                  href="#slide1"
+                  class="btn min-h-0 h-6 lg:min-h-[48px] w-6 lg:w-[48px] btn-circle border-0 text-white bg-black"
+                  >❮</a
+                >
+                <a
+                  href="#slide1"
+                  class="btn min-h-0 h-6 lg:min-h-[48px] w-6 lg:w-[48px] btn-circle border-0 text-white bg-black"
+                  >❯</a
+                >
               </div>
             </div>
           </div>
         </div>
         <!-- Meet all hero section -->
-        <div class="relative w-ful lg:w-auto lg:absolute lg:bottom-10 rounded-2xl lg:right-8 p-8 bg-black">
-            <h2 class="text-white text-lg lg:text-2xl font-extrabold">Meet all the heroes from the field</h2>
-            <p class="mt-4 text-white w-full lg:w-[502px] text-[14px] lg:text-base font-medium  ">Meet Hockey's Heroes: Legends on Ice! 🏒 Uncover the stories of the game's finest in our exclusive showcase. #HockeyHeroes</p>
+        <div
+          class="relative w-ful lg:w-auto lg:absolute lg:bottom-10 rounded-2xl lg:right-8 p-8 bg-black"
+        >
+          <h2 class="text-white text-lg lg:text-2xl font-extrabold">
+            Meet all the heroes from the field
+          </h2>
+          <p
+            class="mt-2 lg:mt-4 text-white w-full lg:w-[502px] text-[14px] lg:text-base font-medium"
+          >
+            Meet Hockey's Heroes: Legends on Ice! 🏒 Uncover the stories of the
+            game's finest in our exclusive showcase. #HockeyHeroes
+          </p>
         </div>
       </section>
     </header>
 
-    <main></main>
-    <footer></footer>
+    <main class="px-4 lg:px-0 mt-10 lg:mt-24 container mx-auto ">
+      <hr style="border-top: dashed 1px; color: rgba(19, 19, 24, 0.2)" />
+      <section class="items-center">
+        <div class="flex flex-col items-center">
+          <h1
+            class="text-black text-center mt-8 text-[22px] lg:text-4xl font-extrabold"
+          >
+            Professional Hockeys Club
+          </h1>
+          <p
+            class="text-[14px] mb-6 lg:mb-8 lg:text-base mt-4 lg:mt-6 w-3/4 lg:w-[607px] font-medium text-center"
+          >
+            Explore the elite realm of hockey with exclusive updates, player
+            profiles, and behind-the-scenes action. Elevate your passion!
+          </p>
+        </div>
+        <hr style="border-top: dashed 1px; color: rgba(19, 19, 24, 0.2)" />
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-8 mt-6 lg:mt-12">
+          <div class="flex flex-col items-center">
+            <div class="radial-progress text-[#ea4141] text-primary" style="--value:87;" role="progressbar">87%</div>
+            <h1 class="mt-6 text-black text-xl font-semibold">Prayer Facility</h1>
+            <p class="text-center w-[250px] lg:w-auto mt-4 text-base text-[rgba(19, 19, 24, 0.60)]">Dedicated space for tranquility and reflection – our prayer facility offers solace in a serene environment.</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="radial-progress text-primary text-green-500" style="--value:95;" role="progressbar">95%</div>
+            <h1 class="mt-6 text-black text-xl font-semibold">Experienced Coach</h1>
+            <p class="text-center w-[250px] lg:w-auto mt-4 text-base text-[rgba(19, 19, 24, 0.60)]">Empower your game with our experienced coach, bringing expertise and strategy to elevate your skills.</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="radial-progress text-primary text-orange-400" style="--value:90;" role="progressbar">90%</div>
+            <h1 class="mt-6 text-black text-xl font-semibold">Senior Player</h1>
+            <p class="text-center mt-4 w-[250px] lg:w-auto text-base text-[rgba(19, 19, 24, 0.60)]">Join forces with our senior player, embodying experience and leadership for unparalleled team strength and success.</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="radial-progress text-primary text-blue-500" style="--value:80;" role="progressbar">80%</div>
+            <h1 class="mt-6 text-black text-xl font-semibold">Training Ground</h1>
+            <p class="text-center mt-4 w-[250px] lg:w-auto text-base text-[rgba(19, 19, 24, 0.60)]">Forge success on our cutting-edge training ground, where dedication meets innovation for peak performance in every game.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer p-10 bg-base-200 text-base-content">
+      <nav>
+        <header class="footer-title">Services</header> 
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">Company</header> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">Legal</header> 
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav> 
+      <form>
+        <header class="footer-title">Newsletter</header> 
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label> 
+          <div class="join">
+            <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+            <button class="btn btn-primary join-item">Subscribe</button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
   </body>
 </html>
