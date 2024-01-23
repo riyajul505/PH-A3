@@ -18,6 +18,7 @@
             colors: {
               clifford: "#da373d",
               button: "#FF4240",
+              "desc-color": "rgba(19, 19, 24, 0.60)",
             },
           },
         },
@@ -43,7 +44,7 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header class="px-4 lg:px-0 container mx-auto ">
+    <header class="px-4 lg:px-0 container mx-auto">
       <!-- Navbar -->
       <nav class="my-3">
         <div class="navbar p-0 lg:p-0 bg-base-100 justify-center items-center">
@@ -162,9 +163,9 @@
       </section>
     </header>
 
-    <main class="px-4 lg:px-0 mt-10 lg:mt-24 container mx-auto ">
+    <main class="px-4 lg:px-0 mt-10 lg:mt-24 container mx-auto">
       <hr style="border-top: dashed 1px; color: rgba(19, 19, 24, 0.2)" />
-      <section class="items-center">
+      <section class="items-center mb-10 lg:mb-24">
         <div class="flex flex-col items-center">
           <h1
             class="text-black text-center mt-8 text-[22px] lg:text-4xl font-extrabold"
@@ -179,59 +180,191 @@
           </p>
         </div>
         <hr style="border-top: dashed 1px; color: rgba(19, 19, 24, 0.2)" />
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-8 mt-6 lg:mt-12">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-8 mt-6 lg:mt-12"
+        >
           <div class="flex flex-col items-center">
-            <div class="radial-progress text-[#ea4141] text-primary" style="--value:87;" role="progressbar">87%</div>
-            <h1 class="mt-6 text-black text-xl font-semibold">Prayer Facility</h1>
-            <p class="text-center w-[250px] lg:w-auto mt-4 text-base text-[rgba(19, 19, 24, 0.60)]">Dedicated space for tranquility and reflection – our prayer facility offers solace in a serene environment.</p>
+            <div
+              class="radial-progress text-[#ea4141] text-primary"
+              style="--value: 87"
+              role="progressbar"
+            >
+              87%
+            </div>
+            <h1 class="mt-6 text-black text-xl font-semibold">
+              Prayer Facility
+            </h1>
+            <p
+              class="text-center w-[250px] lg:w-auto mt-4 text-base text-[rgba(19, 19, 24, 0.60)]"
+            >
+              Dedicated space for tranquility and reflection – our prayer
+              facility offers solace in a serene environment.
+            </p>
           </div>
           <div class="flex flex-col items-center">
-            <div class="radial-progress text-primary text-green-500" style="--value:95;" role="progressbar">95%</div>
-            <h1 class="mt-6 text-black text-xl font-semibold">Experienced Coach</h1>
-            <p class="text-center w-[250px] lg:w-auto mt-4 text-base text-[rgba(19, 19, 24, 0.60)]">Empower your game with our experienced coach, bringing expertise and strategy to elevate your skills.</p>
+            <div
+              class="radial-progress text-primary text-green-500"
+              style="--value: 95"
+              role="progressbar"
+            >
+              95%
+            </div>
+            <h1 class="mt-6 text-black text-xl font-semibold">
+              Experienced Coach
+            </h1>
+            <p
+              class="text-center w-[250px] lg:w-auto mt-4 text-base text-[rgba(19, 19, 24, 0.60)]"
+            >
+              Empower your game with our experienced coach, bringing expertise
+              and strategy to elevate your skills.
+            </p>
           </div>
           <div class="flex flex-col items-center">
-            <div class="radial-progress text-primary text-orange-400" style="--value:90;" role="progressbar">90%</div>
+            <div
+              class="radial-progress text-primary text-orange-400"
+              style="--value: 90"
+              role="progressbar"
+            >
+              90%
+            </div>
             <h1 class="mt-6 text-black text-xl font-semibold">Senior Player</h1>
-            <p class="text-center mt-4 w-[250px] lg:w-auto text-base text-[rgba(19, 19, 24, 0.60)]">Join forces with our senior player, embodying experience and leadership for unparalleled team strength and success.</p>
+            <p
+              class="text-center mt-4 w-[250px] lg:w-auto text-base text-[rgba(19, 19, 24, 0.60)]"
+            >
+              Join forces with our senior player, embodying experience and
+              leadership for unparalleled team strength and success.
+            </p>
           </div>
           <div class="flex flex-col items-center">
-            <div class="radial-progress text-primary text-blue-500" style="--value:80;" role="progressbar">80%</div>
-            <h1 class="mt-6 text-black text-xl font-semibold">Training Ground</h1>
-            <p class="text-center mt-4 w-[250px] lg:w-auto text-base text-[rgba(19, 19, 24, 0.60)]">Forge success on our cutting-edge training ground, where dedication meets innovation for peak performance in every game.</p>
+            <div
+              class="radial-progress text-primary text-blue-500"
+              style="--value: 80"
+              role="progressbar"
+            >
+              80%
+            </div>
+            <h1 class="mt-6 text-black text-xl font-semibold">
+              Training Ground
+            </h1>
+            <p
+              class="text-center mt-4 w-[250px] lg:w-auto text-base text-[rgba(19, 19, 24, 0.60)]"
+            >
+              Forge success on our cutting-edge training ground, where
+              dedication meets innovation for peak performance in every game.
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr style="border-top: dashed 1px; color: rgba(19, 19, 24, 0.2)" />
+      <section class="mt-6 lg:mt-8">
+        <div class="flex flex-col items-center justify-center mb-6 lg:mb-8">
+          <h1 class="text-xl lg:text-4xl font-extrabold text-[#131318]">
+            Program Sections
+          </h1>
+          <p
+            class="w-[292px] lg:w-[607px] mt-4 lg:mt-6 text-center text-sm lg:text-balance font-medium text-desc-color"
+          >
+            Junior Program for budding talents, Teenage Development for growth,
+            and Senior Excellence for peak performance. Unleash your potential!
+          </p>
+        </div>
+        <hr style="border-top: dashed 1px; color: rgba(19, 19, 24, 0.2)" />
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6 lg:mt-12 justify-center items-center"
+        >
+          <!-- Junior Programe -->
+          <div
+            class="hero h-auto lg:h-[338px] w-full rounded-xl flex-1"
+            style="
+              background-image: linear-gradient(rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)),
+                url('Images/2.png');
+            "
+          >
+            <div class="hero-overlay"></div>
+            <div class="hero-content text-center text-neutral-content relative">
+              <div class="mt-1 lg:mt-24 text-center lg:text-left">
+                <h1 class=" text-xl lg:text-3xl font-extrabold text-[#fff]">Junior Program</h1>
+                <p class="mb-5 mt-3 lg:mt-4 text-sm lg:text-base text-[#fff]  mb-5 lg:mb-6">
+                  Unleash the passion and potential in our Junior Program section, designed to nurture young talents and ignite a lifelong love for the game. Elevate skills, build camaraderie, and foster a foundation for future excellence.
+                </p>
+                <button class="btn bg-button border-0 text-white">Register Now!</button>
+              </div>
+            </div>
+          </div>
+          <!-- Teenager Programe -->
+          <div
+            class="hero h-auto lg:h-[338px] w-full rounded-xl flex-1"
+            style="
+              background-image: linear-gradient(rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)),
+                url('Images/3.png');
+            "
+          >
+            <div class="hero-overlay"></div>
+            <div class="hero-content text-center text-neutral-content relative ">
+              <div class="mt-1 lg:mt-24 text-center lg:text-left">
+                <h1 class=" text-xl lg:text-3xl font-extrabold text-[#FFF ]">Teenager Program</h1>
+                <p class="mb-5 mt-3 lg:mt-4 text-sm lg:text-base text-[#FFF]  mb-5 lg:mb-6">
+                  Elevate young talents in our Junior Program. Ignite teenage potential with skill-building and mentorship in our Teenager Program.
+                </p>
+                <button class="btn bg-button border-0 text-white">Register Now!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-6">
+          <!-- Professional Programe -->
+          <div
+            class="hero w-full lg:w-full h-[244px] lg:h-[450px] rounded-2xl"
+            style="background-image: linear-gradient(rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)),
+            url('Images/4.png');"
+          >
+            <div class="hero-overlay "></div>
+            <div class="hero-content  text-neutral-content mr-0 lg:mr-[610px] ">
+              <div class="mt-1 lg:mt-[150px] text-center lg:text-left">
+                <h1 class=" text-xl lg:text-3xl font-extrabold text-[#fff]">Professional Program</h1>
+                <p class="mb-5 mt-3 lg:mt-4 text-sm lg:text-base text-[#fff]  mb-5 lg:mb-6 w-full lg:w-[520px] text-[#FFF]">
+                  Reach the pinnacle with our Professional Program – where expertise meets ambition. Elevate your game to new heights with specialized training, strategic insights, and a path to elite performance.
+                </p>
+                <button class="btn bg-button border-0  text-white">Register Now!</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
     </main>
     <footer class="footer p-10 bg-base-200 text-base-content">
       <nav>
-        <header class="footer-title">Services</header> 
+        <header class="footer-title">Services</header>
         <a class="link link-hover">Branding</a>
         <a class="link link-hover">Design</a>
         <a class="link link-hover">Marketing</a>
         <a class="link link-hover">Advertisement</a>
-      </nav> 
+      </nav>
       <nav>
-        <header class="footer-title">Company</header> 
+        <header class="footer-title">Company</header>
         <a class="link link-hover">About us</a>
         <a class="link link-hover">Contact</a>
         <a class="link link-hover">Jobs</a>
         <a class="link link-hover">Press kit</a>
-      </nav> 
+      </nav>
       <nav>
-        <header class="footer-title">Legal</header> 
+        <header class="footer-title">Legal</header>
         <a class="link link-hover">Terms of use</a>
         <a class="link link-hover">Privacy policy</a>
         <a class="link link-hover">Cookie policy</a>
-      </nav> 
+      </nav>
       <form>
-        <header class="footer-title">Newsletter</header> 
+        <header class="footer-title">Newsletter</header>
         <fieldset class="form-control w-80">
           <label class="label">
             <span class="label-text">Enter your email address</span>
-          </label> 
+          </label>
           <div class="join">
-            <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+            <input
+              type="text"
+              placeholder="username@site.com"
+              class="input input-bordered join-item"
+            />
             <button class="btn btn-primary join-item">Subscribe</button>
           </div>
         </fieldset>
